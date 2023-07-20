@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Contatti</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>    <meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="Contatti_style.css">
+</head>
+<body>
+    <header>
+        <div class="inner-width">
+            <h1><a href="Homepage_index.html" style="text-decoration: none; color: whitesmoke">BP Edil</a></h1>
+            <div class="menu-icon">
+            <i class="fas fa-align-right"></i>
+          </div>
+        </div>
+      </header>
+    
+      <div class="navigation-menu">
+        <nav>
+            <li><a href="Homepage_index.html">Home</a></li>
+            <li><a href="Servizi_index.html">Nostri Servizi</a></li>
+            <li><a href="Chisiamo_index.html">Chi siamo</a></li>
+            <li><a href="Contatti_index.html">Contatti</a></li>
+        </nav>
+      </div>
+
+
+
+      <div class="contact-page">
+        <h2>Get in touch</h2>
+        <div class="contact-info">
+          <div class="item">
+            <i class="icon fas fa-home"></i>
+            New York, United States
+          </div>
+          <div class="item">
+            <i class="icon fas fa-phone"></i>
+            +0 000 0000000
+          </div>
+          <div class="item">
+            <i class="icon fas fa-envelope"></i>
+            email@address.com
+          </div>
+          <div class="item">
+            <i class="icon fas fa-clock"></i>
+            Mon - Fri 8:00 AM to 6:00 PM
+          </div>
+        </div>
+        <form action="mailto:emailid@example.com" class="contact-form">
+          <input type="text" class="textb" placeholder="Your Name">
+          <input type="email" class="textb" placeholder="Your Email">
+          <textarea placeholder="Your Message"></textarea>
+          <input type="submit" class="btn" value='Send'>
+        </form>
+      </div>
+
+      <div class="sm">
+        <div class="social-media-container">
+          <h2 style="color: #b0b4bb;">Follow Us On</h2>
+          <div class="border"></div>
+          <div class="social-media-buttons">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+          </div>
+      </div>
+
+      <script>
+        $(".menu-icon").click(function(){
+          $(this).toggleClass("active");
+          $(".navigation-menu").toggleClass("active");
+          $(".menu-icon i").toggleClass("fa-times");
+        });
+      </script>
+    
+</body>
+</html>
