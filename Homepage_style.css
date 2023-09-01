@@ -162,6 +162,7 @@ header{
 .info_1{
 
   background: #c5b9b9;
+  opacity: .6;
   font-family: coffee;
   font-size: 20px;
   display: flex;
